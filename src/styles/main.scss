@@ -1,0 +1,10 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+
+@import './components/general.scss';
+@import './components/minting-dapp.scss';
+
+body {
+    background: lightblue url("../images/background.png") no-repeat fixed center;
+}
